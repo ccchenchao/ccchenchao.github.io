@@ -11,6 +11,9 @@ h1{
     margin: 0px;
     padding: 0px;
 }
+*{
+    box-sizing: border-box;
+}
 .clearfix:before,
 .clearfix:after {
         content: " ";
@@ -23,6 +26,7 @@ h1{
 body{
     cursor: auto;
     font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+    padding-left: 25%;
 }
 li{
     list-style: none;
@@ -40,6 +44,15 @@ li{
 a:hover{
     box-shadow: rgba(0, 0, 0, 0.156863) 0px 3.99686px 9.99214px 0px, rgba(0, 0, 0, 0.117647) 0px 2px 19.9843px 0px;
 }
+.titale{
+    font-weight: 100;
+    font-size: 1.2em;
+    margin: 0.5em 0 0.5em 0;
+}
+.date{
+    font-weight: 100;
+    font-size: 1em
+}
 .left{
     width: 8%;
     height: 96px;
@@ -53,4 +66,5 @@ a:hover{
 .right{
     width: 92%;
     float: left;
+    padding-left: 1em;
 }
