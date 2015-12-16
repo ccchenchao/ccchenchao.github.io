@@ -1,0 +1,37 @@
+
+.first{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+ }
+.second{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
+.three{
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+}
+/*下面的内容是：如果宽度大于800px的时候*/
+@media(min-width: 800px){
+    .first{
+        width: 33.33%;
+        height: 50px;
+        background-color: pink;
+        float: left;
+    }
+    .second{
+        width: 33.33%;
+        height: 50px;
+        background-color: blue;
+        float: left;
+    }
+    .three{
+        width: 33.33%;
+        height: 50px;
+        background-color: pink;
+        float: left;
+    }
+}
