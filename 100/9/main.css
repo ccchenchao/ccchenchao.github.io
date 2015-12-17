@@ -9,29 +9,50 @@
     height: 50px;
     background-color: green;
 }
-.three{
+.third{
     width: 100%;
     height: 50px;
     background-color: pink;
 }
-/*下面的内容是：如果宽度大于800px的时候*/
-@media(min-width: 800px){
+@media (min-width: 500px){
     .first{
-        width: 33.33%;
+        width: 50%;
+        height: 50px;
+        background-color: red;
+        float: left;
+ }
+    .second{
+        width: 50%;
+        height: 50px;
+        background-color: green;
+         float: left;
+}
+    .third{
+        width: 100%;
         height: 50px;
         background-color: pink;
+        clear: both;/*继承浮动 clear清除*/
+    }
+}
+/*下面的内容是：如果宽度大于800px的时候*/
+@media (min-width: 800px){
+    .first{
+        width: 33.333333%;
+        height: 50px;
+        background-color: red;
         float: left;
     }
     .second{
-        width: 33.33%;
+        width: 33.333333%;
         height: 50px;
         background-color: blue;
         float: left;
     }
-    .three{
-        width: 33.33%;
+    .third{
+        width: 33.333333%;
         height: 50px;
         background-color: pink;
         float: left;
+        clear: none;/*不清除浮动*/
     }
 }
