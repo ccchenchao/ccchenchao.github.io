@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 40%;
+    height: 5em;
+    background-color: pink;
+    float: right;
+    text-align: center;
+    line-height: 5em;
+    box-sizing:border-box;
+    display: none;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-left: 60px;
+}
+menu{
+    width: 30%;
+    height: 20em;
+    background-color: pink;
+    line-height: 5em;
+}
+menu a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    clear: both;
+}
+@media (min-width: 500px){
+    menu{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+}
