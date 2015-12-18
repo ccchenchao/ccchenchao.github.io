@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+</head>
+<body>
+    <div class="cc aa"  ></div>
+    <script>
+        $(function(){
+            $(".cc").click(function(){
+                if($(this).hasClass("aa")){
+                    $(this).removeClass("aa");
+                }
+                else{
+                    $(this).addClass("aa");
+                }
+
+            }
+            )
+        });
+    </script>
+
+</body>
+</html>
