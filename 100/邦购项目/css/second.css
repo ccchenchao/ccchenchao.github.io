@@ -50,7 +50,7 @@ li{
 .header .gouwuche{
     position: absolute;
     left: 89.375%;
-    top: 30px;
+    top: 30px;xai
 }
 /*header_end*/
 
@@ -64,11 +64,16 @@ li{
     height: 100%;
 }
 .banner1_bg .wenzi1{
-    font-size: 1em;
-    position: absolute;
     left: 50%;
     margin-left: -30px;
-    top: 165px;
+    position: absolute;
+    top:141px;
+    font-size: 1em;
+    float: left;
+    display: block;
+    text-align: center;
+
+
 }
 .banner1_bg .wenzi2{
     font-weight: 600;
@@ -132,3 +137,131 @@ li{
 }
 /*banner_end*/
 
+/*main_begin*/
+.main{
+    width: 100%;
+    height: 100%;
+}
+.main1 .daohang{
+    height: 1px;
+    width: 20px;
+    background: #674f25;
+    border:1px #674f25 solid;
+    position: absolute;
+    top: 930px;
+    left: 50%;
+    margin-left: -10px;
+}
+.main1 .daohang1{
+    position: absolute;
+    top: 953px;
+    left: 50%;
+    margin-left: -30.58595px;
+    color:9b9d9e;
+    font-weight: 600;
+    font-size:2em;
+}
+.main1 .daohang2{
+   position: absolute;
+    top: 991px;
+    left: 50%;
+    margin-left: -60px;
+    color:616365;
+    font-size:1em;
+    text-align: center;
+}
+.main1 .shangpin{
+    position: absolute;
+    top:1044px;
+    left: 50%;
+    margin-left:-102px;
+
+}
+.main1 .jiage{
+    position: absolute;
+    top:1226px;
+    left: 50%;
+    margin-left: -36px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.main2 .daohang{
+    height: 1px;
+    width: 20px;
+    background: #674f25;
+    border:1px #674f25 solid;
+    position: absolute;
+    top: 1336px;
+    left: 50%;
+    margin-left: -10px;
+}
+.main2 .daohang1{
+    position: absolute;
+    top: 1359px;
+    left: 50%;
+    margin-left: -30.58595px;
+    color:9b9d9e;
+    font-weight: 600;
+    font-size:2em;
+}
+.main2 .daohang2{
+   position: absolute;
+    top: 1396px;
+    left: 50%;
+    margin-left: -108px;
+    color:616365;
+    font-size:1em;
+    text-align: center;
+}
+.main2 .shangpin{
+    position: absolute;
+    top:1474px;
+}
+.main2 .tiaozhuan{
+    position: absolute;
+    top: 1751px;
+    left: 50%;
+    margin-left:-82.5px;
+    width: 165px;
+    height: 35px;
+    background: #0c1f23;
+    font-size: 1em;
+    color:#ffffff;
+    text-align: center;
+    line-height: 35px;
+}
+/*main_end*/
+
+/*fengexian*/
+.fengexian{
+    width: 320px;
+    height: 77px;
+    background: #ffffff;
+    position: absolute;
+    top: 1784px;
+    border-bottom: 1px #eaeaeb solid;
+}
+/*fengexian*/
+
+/*footer_begin*/
+.footer{
+    height: 100%;
+    width: 100%;
+}
+.footer img{
+    position: absolute;
+    top: 1882px;
+    left: 50%;
+    margin-left: -82px;
+}
+ .biaoshi{
+    position: absolute;
+    top: 1946px;
+    left: 50%;
+    margin-left:-117px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+/*footer_end*/
