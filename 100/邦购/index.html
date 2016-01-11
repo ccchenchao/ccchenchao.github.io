@@ -4,13 +4,35 @@
     <meta charset="UTF-8">
     <title>banggo.com 邦购网 | 美特斯邦威官方商城-Me&City官方商城，100%正品保证!</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script>
+        window.onload=function(){
+            var navsum=document.getElementById("navsum");
+            var clicks=document.getElementById("clicks");
+            clicks.onclick=function(){
+                if(navsum.style.display=="none"){
+                    navsum.style.display="block"
+                }else{
+                    navsum.style.display="none"
+                }
+            }
+        }
+        </script>
 </head>
 <body>
 <!--header begin-->
     <header>
         <div class="header">
             <div class="header-left">
-                <img src="images/header-left_03.png">
+                <img src="images/header-left_03.png"id="clicks">
+                <div id="navsum">
+                    <ul>
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">男子</a></li>
+                        <li><a href="#">儿童</a></li>
+                        <li><a href="#">鞋</a></li>
+                        <li><a href="#">饰品</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="header-logo">
                 <img src="images/header-logo_03.png">
@@ -27,10 +49,44 @@
         <p class="c1">迎接新生活</p>
         <h1>给爱美的你</h1>
         <p class="c2">辞旧迎新男女篇</p>
-        <p><button>去看看</button></p>
+        <p class="c3"><button>去看看</button></p>
         </div>
     </div>
 <!--banner end-->
+<!--main begin-->
+<div class="main">
+    <!--main-top begin-->
+    <div class="main-top1"><img src="images/main-top1_03.png"</div>
+    <p class="main-top2">鞋履馆</p>
+    <p class="main-top3">独特的品牌调性！<br>多元前卫的设计元素。</p>
+    <div class="main-top3"><img src="images/main-top3_03.png"></div>
+    <p class="main-top4">男低高帮黑色真皮皮鞋</p>
+    <p class="main-top5">￥627</p>
+    <!--main-top end-->
+    <!--main-center begin-->
+    <div class="main-top1"><img src="images/main-top1_03.png"></div>
+    <p class="main-top2">皮箱馆</p>
+    <p class="main-top3">精选ABS+PC打造，精工细作，为你而生！<br>加厚加粗，牢固抗压，不易变形断裂。</p>
+    <div class="main-top3"><img src="images/main-center3_07.png"></div>
+    <div class="main-center"><button>查看更多</button></div>
+    <!--main-center end-->
+    <!--main-bottom begin-->
+    <div class="main-top1"><img src="images/main-top1_03.png"></div>
+    <p class="main-top2">美妆馆</p>
+    <p class="main-top3">深层洁面，告别大油脸！<br>韩束喜迎新年。</p>
+    <div class="main-top3"><img src="images/main-boottom_15.png"></div>
+    <div class="main-center"><button>查看更多</button></div>
+    <!--main-bottom end-->
+</div>
+<!--main end-->
+<!--footer begin-->
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="images/header-logo_03.png" >
+        </div>
+        <p>CopyRight © 2000-2015 版权所有 上海美特斯邦威服饰股份有限公司<br>banggo.com 沪ICP备0503</p>
+    </div>
+<!--footer end-->
 
 </body>
 </html>
