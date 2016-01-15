@@ -5,6 +5,12 @@ img{max-width:100%;}
 p{padding: 0;margin: 0;}
 h1{padding: 0;margin: 0;}
 a{text-decoration: none;}
+.clearfix:before,
+.clearfix:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
 /*通配 end*/
 /*header begin*/
 #navsum{width: 100%; background-color: #ffffff; position: absolute; display: none}
@@ -16,7 +22,7 @@ a{text-decoration: none;}
 .header-right{ float: right;width: 4.0625%;margin-top: 4.666666em;position: absolute;right: 1.875rem}
 /*header end*/
 /*banner begin*/
-.banner{width: 100%;text-align: center;color: #01273b}
+.banner{width: 50%;text-align: center;color: #01273b; float: left; padding-top: 50px;}
 .banner .banner-bg{
             background:url(../images/banner-bg_02.png)no-repeat;
             background-position: center;
@@ -31,25 +37,27 @@ a{text-decoration: none;}
 /*banner end*/
 /*main begin*/
 .main{width: 100%; text-align: center;}
+
+
 .main .main-top1{padding-top: 4.875rem; margin:0 auto;}
 .main .main-top2{font-size: 2.5em; color: #1c1f23; padding-top: 1.625em; font-weight: 600;}
 .main .main-top3{font-size: 1em;color: #616365; padding-top: 1.625rem;}
 .main .main-top4{font-size: 1em;color: #b6b6b6; padding-top: 1.625rem}
 .main .main-top5{font-size: 1em;color: #727272; padding-top: 0.75rem;}
 .main-center{padding-top: 1.625rem; display: block; text-align: center;}
+.main1,.main2{
+    float: left;
+    width: 50%;
+    height: 700px;
+}
+.main3,.main4{
+    float: left;
+    width: 50%;
+    height: 700px;
+}
+
+
 .main.center a{float: left;}
-.main1{
-    width: 100%;
-}
-.main2{
-    width: 100%;
-}
-.main3{
-    width: 100%;
-}
-.main4{
-    width: 100%;
-}
 /*main end*/
 /*footer begin*/
 .footer{width: 100%; padding-top: 1.25rem; border-top: 1px #eaeaeb solid;margin-top:4.875rem; text-align: center;}
