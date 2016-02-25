@@ -1,0 +1,21 @@
+body{
+	padding-top: 50px;
+}
+/*header_begin*/
+#logo{
+	padding-top: 7px;
+}
+.gouwuche{
+	height: 50px;
+	line-height: 50px;
+}
+/*header_end*/
+
+/*banner_begin*/
+.carousel{
+	margin-bottom: 40px;
+}
+.carousel img{			
+	width: 100%;
+}
+/*banner_end*/
